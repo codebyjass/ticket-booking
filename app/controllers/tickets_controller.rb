@@ -1,5 +1,4 @@
 class TicketsController < ApplicationController
-
   def index
     @tickets = current_user.tickets.includes(:event).order(created_at: :asc).page(params[:page]).per(20)
   end
