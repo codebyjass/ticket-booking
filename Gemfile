@@ -64,7 +64,7 @@ group :test do
 end
 
 gem "devise"
-gem "bootstrap", "~> 5.3.0"
+gem "bootstrap", "~> 5.3.5"
 gem "autoprefixer-rails"
 gem "sassc-rails"
 gem "rails-ujs"
